@@ -1,0 +1,71 @@
+
+.header{
+	background-color: $menu-bg-color;
+
+	.navbar-default .navbar-nav>li>a{
+		color: $menu-font-color;
+		line-height: 30px;
+		font-size: 13px;
+	}
+
+	.navbar-default .navbar-nav>.active>a,
+	.navbar-default .navbar-nav a:hover{
+		background-color: $primary-bg-color;
+	    color: $primary-font-color;
+	}
+
+	.navbar-default .navbar-nav>.open>a, 
+	.navbar-default .navbar-nav>.open>a:focus, 
+	.navbar-default .navbar-nav>.open>a:hover {
+	    background-color: $primary-bg-color;
+	    color: $primary-font-color;
+	}
+
+	.dropdown-menu{
+		background-color: $menu-bg-color;
+	    color: $menu-font-color;
+	}
+
+	.dropdown-menu>li>a{
+		color: $menu-font-color;
+	}
+
+	.dropdown-menu>li>a:focus, 
+	.dropdown-menu>li>a:hover{
+		background-color: $primary-bg-color;
+	    color: $primary-font-color;
+	}
+
+	.currency-selector{
+		background-color: $primary-bg-color;
+	    color: $primary-font-color;
+		font-size: 12px;
+
+		.container{
+			text-align: right;
+		}
+
+		.dropdown{
+			display: inline-block;
+		}
+
+		.btn{
+			font-size: 12px;
+			padding: 0;
+		}
+
+		.dropdown-menu>li>a {
+		    font-size: 12px;
+		}
+
+		.btn-default,
+		.open>.dropdown-toggle.btn-default:focus, 
+		.open>.dropdown-toggle.btn-default:hover,
+		.open>.dropdown-toggle.btn-default:active{
+			outline: none;
+		    color: $primary-font-color;
+		    background-color: transparent;
+		    border-color: transparent;
+		}
+	}
+}
